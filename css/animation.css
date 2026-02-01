@@ -59,10 +59,10 @@
   }
   50%{
     opacity: 1;
-    transform: translateY(250px) rotate(360deg) scale(0.5);
+    transform: translateY(40vh) rotate(360deg) scale(0.5);
   }
   100%{
     opacity: 0;
-    transform: translateY(500px) rotate(720deg) scale(0);
+    transform: translateY(90vh) rotate(720deg) scale(0);
   }
 }
