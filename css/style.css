@@ -1,0 +1,247 @@
+@import "animation.css";
+@import "design.css";
+@import "login.css";
+
+:root{
+--sw: rgba(255, 255, 255, 0.75);
+--grey: rgba(200, 200, 200, 0.75);
+--muted: rgba(150, 170, 200, 0.75);
+--dim: rgba(140, 140, 140, 0.75);
+--accent: rgba(120, 180, 255, 0.75);
+}
+
+/* html */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+html, body{
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: auto;
+  background: linear-gradient(
+    180deg,
+    rgba(15, 32, 39, 1),
+    rgba(26, 26, 46, 1),
+    rgba(10, 10, 10, 1),
+    rgba(0, 0, 0, 1)
+  )
+}
+p, h1, h2, h3, h4, h5{
+  cursor: default;
+}
+
+/* layout */
+#bodyWrapper{
+  min-width: 100vw;
+  min-height: 100vh;
+}
+#anchor{
+  margin: 0 auto;
+  position: relative
+}
+
+/* don't display at start */
+#signupPanel, #forgotPassPanel{
+  display: none;
+}
+
+
+/* background animation */
+#fallingStarContainer{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  
+  animation: glow 5s linear infinite;
+}
+
+#fallingStarContainer div:nth-child(1){
+  transform: translateY(12vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(2){
+  transform: translateY(17vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(3){
+  transform: translateY(8vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(4){
+  transform: translateY(14vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(5){
+  transform: translateY(10vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(6){
+  transform: translateY(13vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(7){
+  transform: translateY(9vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(8){
+  transform: translateY(16vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(9){
+  transform: translateY(11vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(10){
+  transform: translateY(15vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(11){
+  transform: translateY(7vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(22){
+  transform: translateY(18vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(13){
+  transform: translateY(6vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(14){
+  transform: translateY(19vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(15){
+  transform: translateY(5vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(16){
+  transform: translateY(16vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(17){
+  transform: translateY(4vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(18){
+  transform: translateY(9vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(19){
+  transform: translateY(8vh);
+  height: 100vh;
+  position: relative;
+}
+#fallingStarContainer div:nth-child(20){
+  transform: translateY(13vh);
+  height: 100vh;
+  position: relative;
+}
+
+#star1{
+  position: absolute;
+  animation: fall 15s linear infinite;
+}
+#star2{
+  position: absolute;
+  animation: fall 7s linear infinite;
+}
+#star3{
+  position: absolute;
+  animation: fall 23s linear infinite;
+}
+#star4{
+  position: absolute;
+  animation: fall 13s linear infinite;
+}
+#star5{
+  position: absolute;
+  animation: fall 20s linear infinite;
+}
+#star6{
+  position: absolute;
+  animation: fall 6s linear infinite;
+}
+#star7{
+  position: absolute;
+  animation: fall 21s linear infinite;
+}
+#star8{
+  position: absolute;
+  animation: fall 10s linear infinite;
+}
+#star9{
+  position: absolute;
+  animation: fall 18s linear infinite;
+}
+#star10{
+  position: absolute;
+  animation: fall 15s linear infinite;
+}
+#star11{
+  position: absolute;
+  animation: fall 11s linear infinite;
+}
+#star12{
+  position: absolute;
+  animation: fall 25s linear infinite;
+}
+#star13{
+  position: absolute;
+  animation: fall 8s linear infinite;
+}
+#star14{
+  position: absolute;
+  animation: fall 17s linear infinite;
+}
+#star15{
+  position: absolute;
+  animation: fall 22s linear infinite;
+}
+#star16{
+  position: absolute;
+  animation: fall 13s linear infinite;
+}
+#star17{
+  position: absolute;
+  animation: fall 7s linear infinite;
+}
+#star18{
+  position: absolute;
+  animation: fall 24s linear infinite;
+}
+#star19{
+  position: absolute;
+  animation: fall 10s linear infinite;
+}
+#star20{
+  position: absolute;
+  animation: fall 18s linear infinite;
+}
